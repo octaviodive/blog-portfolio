@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block page_content %}
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<div class="row">
+	<h1>About</h1>
+	<hr>
+
+	<div class="col-md-12">
+		<br>
+		<br>
+		<h1>Hi, I'm Octavio Diaz</h1>
+	</div>
+</div>
+<a class="row">
+	<a class="col-md-8">
+		<br>
+		<br>
+		<h4>
+			I'm a web developer and programmer living in Maracaibo, Venezuela. I make web applications, usually with django.
+		</h4>
+		<br>
+		<h4>
+			I primarily use Python, but picking up a new framework or language isn't a problem. Im comfortable developing on the frontend or backend as well as setting up or managing infrastructure.
+		</h4>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h4>You can see some of the things I've worked on <a href={% url 'project_index' %}>projects</a> page and my <a href="https://github.com/octaviodive">Github</a> page.</h4>
+	</div>
+</div>
+{% endblock %}
