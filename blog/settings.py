@@ -27,10 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['octaviodiazwork.herokuapp.com']
 
-#DJANG0 BLOG VARS
-
-export SECRET_KEY = '49262fb127875457591cafffabf822f9d47c8a01752adff5'
-export DEBUG_VALUE = "True"
 
 # Application definition
 
