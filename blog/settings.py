@@ -130,7 +130,8 @@ MEDIA_URL = '/images/'
 
 
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'static/projects/img')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
 
-django_heroku.settings(locals())
+dj
+ango_heroku.settings(locals())
 

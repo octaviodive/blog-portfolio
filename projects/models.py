@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils.safestring import mark_safe
-
+from PIL import Image
 
 # Create your models here.
 class Project(models.Model):
