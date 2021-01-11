@@ -7,8 +7,7 @@ class Project(models.Model):
     title = models.CharField(max_length=100)
     description = models.TextField()
     technology = models.CharField(max_length=20)
-    image = models.ImageField(upload_to='images/', black=True, null=True)
-
+    
     def image_tag(self):
         if self.image:
             return mark_safe('<img src="%s" style="width: 45px; height:45px;" />' % self.image)
