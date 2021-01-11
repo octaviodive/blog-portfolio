@@ -8,15 +8,8 @@ class Project(models.Model):
     description = models.TextField()
     technology = models.CharField(max_length=20)
 
-    """def image_tag(self):
-        if self.image:
-            return mark_safe('<img src="%s" style="width: 45px; height:45px;" />' % self.image)
-        else:
-            return 'No Image Found'
-
-    image_tag.short_description = 'Image'
 
     def __str__(self):
-        return self.title"""
+        return self.title
 
 
